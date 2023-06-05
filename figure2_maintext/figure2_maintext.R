@@ -1,6 +1,6 @@
 #remove all variables and set working directory
 rm(list=ls(all=TRUE)) 
-# setwd("~/Nov2020_Project2/Target Screening/221205_Add_Ibuprofen/concentration_profiles")
+setwd("~/repos/additional_si_wastewater_Rich_et_al_2023/figure2_maintext")
 
 #libraries needed
 library(tidyr)
