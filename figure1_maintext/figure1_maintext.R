@@ -370,7 +370,6 @@ p3 <- ggplot(sum_stats_pos_atleast3, aes(x = log10(I.m), y = R.m))+
   )
 
 
-# IN PAPER 230519 REVISIONS
 tiff("FIGURE1_ABC.tiff",width=3.25,height=9,units="in",res=300)
 grid.arrange(p1,p2,p3, nrow=3)
 dev.off()
